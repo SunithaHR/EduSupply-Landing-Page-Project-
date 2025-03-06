@@ -1,21 +1,21 @@
-// App.js
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import ProductGrid from "./components/ProductGrid";
-import TestimonialSlider from "./components/TestimonialSlider";
+import Products from "./components/Products";
+import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import "./styles/global.css";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="app">
+    <>
       <Navbar />
       <Hero />
-      <ProductGrid />
-      <TestimonialSlider />
+      <Products />
+      <Testimonials />
+      <Contact/>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -1,22 +1,20 @@
-// components/Navbar.js
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar">
       <div className="logo">EduSupply</div>
-      <div className={`nav-links ${isOpen ? "active" : ""}`}>
-        <a href="#hero">Home</a>
-        <a href="#products">Products</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <FaTimes /> : <FaBars />}
+      <ul className={menuOpen ? "nav-links active" : "nav-links"}>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
       </div>
     </nav>
   );
