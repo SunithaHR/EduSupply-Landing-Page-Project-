@@ -39,3 +39,6 @@ my-app/
 │── .gitignore  
 │── package.json  
 │── README.md              # Project documentation  
+
+## Live Demo
+https://edusupply.netlify.app/
