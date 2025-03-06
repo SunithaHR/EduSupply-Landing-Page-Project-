@@ -4,6 +4,7 @@ import Stationary from '../assets/stationary.jpg';
 import Backpack from '../assets/backpack.jpg';
 import Tech from '../assets/tech.jpg';
 
+// Product list
 const products = [
   { 
     id: 1, 
