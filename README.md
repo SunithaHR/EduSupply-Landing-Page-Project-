@@ -12,13 +12,14 @@ EduSupply is a modern, interactive, and responsive web application designed for 
 
  ## Technologies Used
 
-## Technology	                      ## Purpose
-React.js	                          Component-based UI development
-CSS3	                              Styling and responsive design
-JavaScript (ES6+)	                  Enhances interactivity (testimonials slider, navigation)
-React Icons	                        Adds interactive icons for better UX
-HTML5	                              Semantic structure for accessibility and SEO
-GitHub	                            Version control and collaboration
+| Technology       | Purpose  |
+|-----------------|------------------------------------------------|
+| **React.js**    | Component-based UI development                |
+| **CSS3**        | Styling and responsive design                 |
+| **JavaScript (ES6+)** | Enhances interactivity (testimonials slider, navigation) |
+| **React Icons** | Adds interactive icons for better UX          |
+| **HTML5**       | Semantic structure for accessibility and SEO   |
+| **GitHub**      | Version control and collaboration             |
 
 ## Project Structure
 
